@@ -1,0 +1,75 @@
+.app {
+    background-color: rgb(237, 245, 245); 
+    flex:1;
+    position: 'relative';
+    width: 100;
+    height: 200;
+  }
+  .tabs_toggle {
+    flex: 1;
+    flex-direction: row;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    color: #e0d8d7;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    text-decoration:underline;
+    color: #6e6a69;
+    text-decoration-color:blue;
+  }
+  
+  .tabContent {
+    flex:1;
+    /* background-color: red;  */
+    position: 'relative';
+    width: 400;
+    height: 200;
+  }
+
+  .addstyle {
+    margin-top: 10;
+    margin-left: 10
+  }
+
+  ul li{
+    margin-Top: 2 !important; 
+    font-Size: 10 !important; 
+    font-Weight: 'bold' !important; 
+    color: 'red' !important; 
+  }
+
+
+
+ div.scrollmenu {
+  /* background-color: #333; */
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  /* color: white; */
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu li a:hover {
+  text-decoration:underline;
+    color: #6e6a69;
+  text-decoration-color:blue;
+}
